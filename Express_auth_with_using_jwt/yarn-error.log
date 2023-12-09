@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/bin/node-20 /usr/bin/yarn run start
+
+PATH: 
+  /home/imtiaz_atik/.nvm/versions/node/v18.19.0/bin:/home/imtiaz_atik/.local/bin:/home/imtiaz_atik/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/imtiaz_atik/Desktop/Garphql and MongoDB API practice/Express_auth_with_using_jwt/package.json: Expected ',' or '}' after property value in JSON at position 185
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules_20/yarn/lib/util/fs.js:755:57
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules_20/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:17:30)
+      at /usr/lib/node_modules_20/yarn/node_modules/babel-runtime/helpers/asyncToGenerator.js:28:13
+
+npm manifest: 
+  {
+    "name": "express_auth_with_using_jwt",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "node app",
+      "dev": "nodemon app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^5.0.0-beta.1",
+      "jsonwebtoken": "^9.0.2",
+      "nodemailer": "^6.9.7",
+      "nodemon": "^3.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
